@@ -28,8 +28,8 @@ export KEYCLOAK_USER="YOUR_KEYCLOAK_USER"
 export KEYCLOAK_PWD="YOUR_KEYCLOAK_PWD"
 
 # Build Dockerfile
-Docker build -t docker-selenium:anu-trigger --build-arg USER=$KEYCLOAK_USER --build-arg PWD=$KEYCLOAK_PWD
+Docker build -t docker-selenium:sierra-leone-trigger --build-arg USER=$KEYCLOAK_USER --build-arg PWD=$KEYCLOAK_PWD
 
 # Run Docker
-Docker run --rm docker-selenium:anu-trigger
+Docker run --rm docker-selenium:sierra-leone-trigger
 ```
